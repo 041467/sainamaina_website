@@ -1,20 +1,44 @@
+// import { createBrowserRouter, RouterProvider } from "router";
+// import Navbar from "./components/navbar";
+// import Home from "./pages/home";
 
-import './App.css'
-import { FaFacebook } from "react-icons/fa";
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: (
+//       <>
+//         <Navbar />
+//         <Home />
+//       </>
+//     ),
+//   },
+//   {
+//     path: "/about",
+//     element: (
+//       <>
+//         <Navbar />
+//         <About />
+//       </>
+//     ),
+//   },
+//    {
+//     path: "/contact",
+//     element: (
+//       <>
+//         <Navbar />
+//         <Contact />
+//       </>
+//     ),
+//   },
+  
+// ]);
 
-
-function App() {
- 
-
-  return (
+const App = () => {
+  return(
     <>
-      <div>
-        <h1>Hello</h1>
-            <FaFacebook  style={{color:"blue"}} />
-
-       </div>
+    <h2>Hello World</h2>
     </>
   )
-}
+};
 
-export default App
+export default App;

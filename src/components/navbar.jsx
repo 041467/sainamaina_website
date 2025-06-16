@@ -3,28 +3,42 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
  return (
-   <nav className="bg-black p-4">
+   <nav
+    style={{
+        color: 'white',
+        backgroundColor: '#EFE4D2',
+        padding: '10px',
+        margin:'0px',
+       textDecoration:'none'
+      }}>
      <NavLink
        to="/"
-       className={({ isActive }) =>
-         isActive ? "text-red-500 px-4" : "text-white px-4"
-       }
+      style={{
+        color: '#254D70',
+       
+        padding: '10px'
+      }}
+       
      >
        Home
      </NavLink>
      <NavLink
        to="/about"
-       className={({ isActive }) =>
-         isActive ? "text-red-500 px-4" : "text-white px-4"
-       }
+       style={{
+        color: '#254D70',
+       
+        padding: '10px'
+      }}
      >
        About
      </NavLink>
        <NavLink
-       to="/"
-       className={({ isActive }) =>
-         isActive ? "text-red-500 px-4" : "text-white px-4"
-       }
+       to="/contact"
+       style={{
+        color: '#254D70',
+     
+        padding: '10px'
+      }}
      >
        Contact
      </NavLink>

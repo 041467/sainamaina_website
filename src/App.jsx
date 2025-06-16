@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./pages/home";
 import About from "./pages/about";
+import Contact from "./pages/contact";
 
 const router = createBrowserRouter([
   {
@@ -22,14 +23,20 @@ const router = createBrowserRouter([
       </>
     ),
   },
+   {
+    path: "/contact",
+    element: (
+      <>
+        <Navbar />
+        <Contact />
+      </>
+    ),
+  },
 ]);
 
 const App = () => {
-  return (
-    <>
-      <h1> hello world</h1>
-    </>
-  );
+ return <RouterProvider router={router} />;
 };
+
 
 export default App;

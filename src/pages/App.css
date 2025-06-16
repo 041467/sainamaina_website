@@ -1,0 +1,12 @@
+/* App.css */
+.background {
+  background-image: url('/your-image.jpg'); /* Replace with your image's filename */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+}

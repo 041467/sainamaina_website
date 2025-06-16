@@ -10,6 +10,7 @@ const Navbar = () => {
         padding: '10px',
         margin:'0px',
        textDecoration:'none'
+       
       }}>
      <NavLink
        to="/"

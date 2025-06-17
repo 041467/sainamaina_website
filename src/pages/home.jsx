@@ -1,4 +1,4 @@
-import '../styles'
+
 const Home=()=>{
     return (
         <div

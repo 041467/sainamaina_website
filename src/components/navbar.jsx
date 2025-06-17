@@ -9,14 +9,14 @@ const Navbar = () => {
         backgroundColor: '#EFE4D2',
         padding: '10px',
         margin:'0px',
-       textDecoration:'none'
+       
        
       }}>
      <NavLink
        to="/"
       style={{
         color: '#254D70',
-       
+        textDecoration:'none',
         padding: '10px'
       }}
        
@@ -27,8 +27,9 @@ const Navbar = () => {
        to="/about"
        style={{
         color: '#254D70',
-       
+        textDecoration:'none',
         padding: '10px'
+        
       }}
      >
        About
@@ -37,7 +38,7 @@ const Navbar = () => {
        to="/contact"
        style={{
         color: '#254D70',
-     
+         textDecoration:'none',
         padding: '10px'
       }}
      >

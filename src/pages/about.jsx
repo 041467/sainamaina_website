@@ -2,9 +2,9 @@
 const About=()=>{
     return (
         <div>
-            <h1>About Page</h1>
+            <h1>About Us</h1>
             <h5>
-                Here you can write about your school
+                Sainamaina Secondary School
             </h5>
         </div>
     );

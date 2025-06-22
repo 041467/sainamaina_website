@@ -1,0 +1,15 @@
+#home {
+    height: 500px;
+    background-image: url("backgroundImage.jpg");
+    background-repeat: no-repeat;
+      background-size: 1552px 610px;
+       
+
+      
+    
+}
+#message{
+  background-image: url("https://media.istockphoto.com/id/1419844586/vector/stem-blue-horizontal-frame-vector-education-bright-illustration.jpg?s=612x612&w=0&k=20&c=-A1eYLYulujNsiM26lkVy7qMT_Hp82N5EtKHSFRmigk=");
+  background-repeat: no-repeat;
+    background-size: 502px 100px;
+}

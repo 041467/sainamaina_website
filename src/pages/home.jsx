@@ -6,11 +6,17 @@ const Home = () => {
       <div
         id="home"
         style={{
-          paddingLeft: "700px",
+          paddingLeft: "506px",
+          paddingRight: "100px",
+          alignItems: "center",
+          paddingTop: "250px",
+          color: "#E7F2E4",
         }}
       >
-        <h1>Welcome To</h1>
-        <h5>Sainamaina Secondary School</h5>
+        <h1 style={{ fontSize: "50px" }}>Welcome To</h1>
+        <h5 style={{ fontSize: "30px", paddingRight: "30px" }}>
+          Sainamaina Secondary School
+        </h5>
       </div>
       <div style={{ display: "flex", paddingTop: "100px", gap: "300px" }}>
         <div>
@@ -37,8 +43,71 @@ const Home = () => {
       </div>
       <div>
         <div id="message">
-          <h1>Our Message</h1>
-          <h5>School Management</h5>
+          <h1 style={{ color: "#F4E7E1" }}>Our Message</h1>
+          <h5 style={{ color: "#F4E7E1" }}>School Management</h5>
+          <div style={{ display: "flex", gap: "50px" }}>
+            <div
+              style={{
+                backgroundColor: "#F4E7E1",
+                height: "300px",
+                width: "300px",
+                margin: "50px",
+
+                borderRadius: "10px",
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <div style={{ height: "50px", width: "50px" }}>
+                  <img
+                    src="https://scontent.fbwa5-1.fna.fbcdn.net/v/t39.30808-6/495573904_9689854571051608_4493033182680268891_n.jpg?stp=c150.0.386.386a_dst-jpg_s206x206_tt6&_nc_cat=107&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=wDwwpV7hVpcQ7kNvwEkg_Mf&_nc_oc=AdmGUfwz8zF8pSj2aJxJ3pGhg13hELwwAwAcrxgvrZMJr9pmqCMVm53SW7exemo3fkQ&_nc_zt=23&_nc_ht=scontent.fbwa5-1.fna&_nc_gid=vRTMlITNdVqjmNfawFgIlQ&oh=00_AfMW6XA-Yv10MOKYJrVJhnixLC30NI3dqZijDHq6uW8CRg&oe=685E8DBF"
+                    style={{
+                      borderRadius: "200px",
+                      height: "130px",
+                      width: "130px",
+                    }}
+                  />
+                </div>
+                <div
+                  style={{
+                    paddingLeft: "60px",
+                    height: "100px",
+                    width: "150px",
+                  }}
+                >
+                  <h4>Mr.Netralal Puri</h4>
+                  <h6 style={{ color: "#4CA338" }}>Principal</h6>
+                </div>
+              </div>
+              <div>
+                <p style={{ paddingTop: "30px" }}>
+                  Dear Students and Parents, Welcome to L.R.I. Located away from
+                  the clatters and clamors of the city area,Sainamaina Education
+                  Trust is nestled in close proximity to a blissful natural
+                  ambiance.
+                </p>
+              </div>
+            </div>
+            <div
+              style={{
+                backgroundColor: "#F4E7E1",
+                height: "300px",
+                width: "300px",
+                margin: "50px",
+                borderRadius: "10px",
+              }}
+            >
+              <div style={{ height: "50px", width: "50px" }}>
+                <img
+                  src="https://scontent.fbwa5-1.fna.fbcdn.net/v/t39.30808-6/470212526_122098618190687256_8579273935762147729_n.jpg?stp=c0.4.576.576a_dst-jpg_s565x565_tt6&_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=73cpKhBLJMYQ7kNvwHHNDdO&_nc_oc=AdlZTyheKx31RVgko9ZRwxXP26F9FFkdnH0dDWb6rRaWCEKRacXK_CgwcG56vL8-EgM&_nc_zt=23&_nc_ht=scontent.fbwa5-1.fna&_nc_gid=0gxwWBqUJqh0lM6i0ax9MA&oh=00_AfOkGG45OwH8mC-c9JKuk3Ly3_S9QtYRamQ602rB60lpSA&oe=685E91A4"
+                  style={{
+                    borderRadius: "200px",
+                    height: "130px",
+                    width: "130px",
+                  }}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

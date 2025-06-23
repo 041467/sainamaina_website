@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       <header
         style={{
-          backgroundColor: "pink",
+          backgroundColor: "#ECFAE5",
           display: "flex",
           flexDirection: "row",
           justifyContent: "space-between",
@@ -26,15 +26,14 @@ const Navbar = () => {
           <div>
             <a
               href="smppssian@gmail.com"
-              // style={{
-              //   textDecoration: "none",
-              //   color: "red",
-              //   textAlign: "end",
-              //   gap: "20px",
-              //   paddingTop: "35px",
-              //   display: "flex",
-              //   flexDirection: "-moz-initial",
-              // }}
+              style={{
+                textDecoration: "none",
+                color: "",
+                textAlign: "end",
+                gap: "20px",
+                paddingTop: "35px",
+                display: "flex",
+              }}
             >
               <SiGmail />
               smpps@gmail.com
@@ -43,16 +42,16 @@ const Navbar = () => {
           <div>
             <a
               href="tel:071-405135"
-              // style={{
-              //   textDecoration: "none",
-              //   color: "red",
+              style={{
+                textDecoration: "none",
+                color: "#551A8B",
 
-              //   display: "flex",
-              //   gap: "20px",
-              //   paddingTop: "35px",
-              //   textAlign: "center",
-              //   paddingLeft: "50px",
-              // }}
+                display: "flex",
+                gap: "20px",
+                paddingTop: "35px",
+                textAlign: "center",
+                paddingLeft: "50px",
+              }}
             >
               <MdLocalPhone />
               071-405135
@@ -64,6 +63,7 @@ const Navbar = () => {
             display: "flex",
             flexDirection: "row",
             justifyContent: "center",
+            paddingLeft: "950px",
           }}
         >
           <div>
@@ -72,7 +72,7 @@ const Navbar = () => {
               target="_blank"
             >
               <FaFacebook
-              // style={{ color: "black", height: "30px", width: "30px" }}
+                style={{ color: "#254D70", height: "30px", width: "30px" }}
               />
             </a>
           </div>
@@ -82,22 +82,19 @@ const Navbar = () => {
               target="_blank"
             >
               <FaMapMarkerAlt
-              // style={{ color: "black", height: "30px", width: "30px" }}
+                style={{ color: "#254D70", height: "30px", width: "30px" }}
               />
             </a>
           </div>
         </div>
 
-        {/* <div
-        // style={{
-        //   width: "50%",
-        //   display: "grid",
-        //   gridTemplateColumns:
-        //     "200px 200px 200px 200px 200px 200px 200px 200px",
-        //   gridTemplateRows: "1px 50px 99px",
-        //   backgroundColor: "yellow",
-        // }}
-        ></div> */}
+        <div
+          style={{
+            width: "50%",
+
+            backgroundColor: "yellow",
+          }}
+        ></div>
       </header>
 
       <nav

@@ -50,7 +50,7 @@ const About = () => {
           </div>
           <div>
             <img
-              src="https://scontent.fktm18-1.fna.fbcdn.net/v/t39.30808-6/496049653_122116756142876153_13970366089163506_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gJxTXaaulQ4Q7kNvwEcytE2&_nc_oc=Adk7mZ6RrbeaDRKRYjBGQM0beLMOQJV-Xjs7hTmvQfzt85tz84kkycgdRvR0IjbxSF8&_nc_zt=23&_nc_ht=scontent.fktm18-1.fna&_nc_gid=wlNygr934mayVIqDvqVPEA&oh=00_AfNomLuh0sb-JVkWt5slW9xH_HUqGNP8JJi0lFVvTqNAHA&oe=685F4758"
+              src="/https://scontent.fktm18-1.fna.fbcdn.net/v/t39.30808-6/496049653_122116756142876153_13970366089163506_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gJxTXaaulQ4Q7kNvwEcytE2&_nc_oc=Adk7mZ6RrbeaDRKRYjBGQM0beLMOQJV-Xjs7hTmvQfzt85tz84kkycgdRvR0IjbxSF8&_nc_zt=23&_nc_ht=scontent.fktm18-1.fna&_nc_gid=wlNygr934mayVIqDvqVPEA&oh=00_AfNomLuh0sb-JVkWt5slW9xH_HUqGNP8JJi0lFVvTqNAHA&oe=685F4758"
               style={{ height: "300px", width: "300px", borderRadius: "10px" }}
             />
           </div>
@@ -65,7 +65,7 @@ const About = () => {
         >
           <div>
             <img
-              src="https://scontent.fbwa5-1.fna.fbcdn.net/v/t39.30808-6/500059292_122101789868876153_7690387728253325140_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=r1I-MW6VUsUQ7kNvwEmXOtp&_nc_oc=AdkMIYkcL77d74CHHNb2IJJIF0PQYB76_sJu9t0GsxDp5lzodNEH0hFR5tLqoonPNSI&_nc_zt=23&_nc_ht=scontent.fbwa5-1.fna&_nc_gid=9KO0_YjLGJcrg2kaC2r5dg&oh=00_AfOqLcseCRHt1kXCYuJx-zhsqjQZl1n6jt2XARpiECxpgg&oe=685FF375"
+              src="/https://scontent.fbwa5-1.fna.fbcdn.net/v/t39.30808-6/500059292_122101789868876153_7690387728253325140_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=r1I-MW6VUsUQ7kNvwEmXOtp&_nc_oc=AdkMIYkcL77d74CHHNb2IJJIF0PQYB76_sJu9t0GsxDp5lzodNEH0hFR5tLqoonPNSI&_nc_zt=23&_nc_ht=scontent.fbwa5-1.fna&_nc_gid=9KO0_YjLGJcrg2kaC2r5dg&oh=00_AfOqLcseCRHt1kXCYuJx-zhsqjQZl1n6jt2XARpiECxpgg&oe=685FF375"
               style={{ height: "300px", width: "300px", borderRadius: "10px" }}
             />
           </div>

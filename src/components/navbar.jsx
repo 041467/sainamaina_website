@@ -32,6 +32,7 @@ const Navbar = () => {
               <span
                 style={{
                   textDecoration: "none",
+                  marginLeft: "6px",
                 }}
               >
                 smpps@gmail.com
@@ -50,6 +51,7 @@ const Navbar = () => {
                 style={{
                   textDecoration: "none",
                   color: "#254D70",
+                  marginLeft: "6px",
                 }}
               >
                 071-405135
@@ -63,7 +65,15 @@ const Navbar = () => {
               style={{ textDecoration: "none" }}
             >
               <FaMapMarkerAlt />
-              <span>Butwal, Nepal</span>
+              <span
+                style={{
+                  textDecoration: "none",
+                  color: "#254D70",
+                  marginLeft: "6px",
+                }}
+              >
+                Butwal, Nepal
+              </span>
             </a>
           </div>
         </div>

@@ -5,6 +5,7 @@ import About from "./pages/about";
 import Contact from "./pages/contact";
 
 import "./App.css";
+import Footer from "./components/footer";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
       <>
         <Navbar />
         <Home />
+        <Footer />
       </>
     ),
   },
@@ -22,6 +24,7 @@ const router = createBrowserRouter([
       <>
         <Navbar />
         <About />
+        <Footer />
       </>
     ),
   },
@@ -31,6 +34,7 @@ const router = createBrowserRouter([
       <>
         <Navbar />
         <Contact />
+        <Footer />
       </>
     ),
   },

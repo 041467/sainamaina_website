@@ -61,7 +61,7 @@ const Home = () => {
               <div style={{ display: "flex" }}>
                 <div style={{ height: "50px", width: "50px" }}>
                   <img
-                    src="https://scontent.fbwa5-1.fna.fbcdn.net/v/t39.30808-6/495573904_9689854571051608_4493033182680268891_n.jpg?stp=c150.0.386.386a_dst-jpg_s206x206_tt6&_nc_cat=107&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=wDwwpV7hVpcQ7kNvwEkg_Mf&_nc_oc=AdmGUfwz8zF8pSj2aJxJ3pGhg13hELwwAwAcrxgvrZMJr9pmqCMVm53SW7exemo3fkQ&_nc_zt=23&_nc_ht=scontent.fbwa5-1.fna&_nc_gid=vRTMlITNdVqjmNfawFgIlQ&oh=00_AfMW6XA-Yv10MOKYJrVJhnixLC30NI3dqZijDHq6uW8CRg&oe=685E8DBF"
+                    src="/principal.jpg"
                     style={{
                       borderRadius: "200px",
                       height: "130px",
@@ -103,7 +103,7 @@ const Home = () => {
               <div style={{ display: "flex" }}>
                 <div style={{ height: "50px", width: "50px" }}>
                   <img
-                    src="https://scontent.fktm18-1.fna.fbcdn.net/v/t39.30808-6/470212526_122098618190687256_8579273935762147729_n.jpg?stp=c0.4.576.576a_dst-jpg_s565x565_tt6&_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=73cpKhBLJMYQ7kNvwE-Alew&_nc_oc=AdkoVwgVEeWGmrWBs3Gsj7SggOGh_NjJ2TjDR6uF0aKEkPBz-Z0kAsFRIha5TyWxV7Y&_nc_zt=23&_nc_ht=scontent.fktm18-1.fna&_nc_gid=SrXFDqr58QcmTmSlWqWOZQ&oh=00_AfM6YXXQoPJMurzjfJZUCwu4nCaNVbKDRZsKEKxP0aaR-w&oe=685F0224"
+                    src="/chairman.jpg"
                     style={{
                       borderRadius: "200px",
                       height: "130px",
@@ -146,7 +146,7 @@ const Home = () => {
               <div style={{ display: "flex" }}>
                 <div style={{ height: "50px", width: "50px" }}>
                   <img
-                    src="https://scontent.fktm18-1.fna.fbcdn.net/v/t39.30808-1/475779229_9462342927130078_9043049345123598727_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_ohc=PUxEGaSaZpsQ7kNvwEfF8Nl&_nc_oc=AdmwRsPqs8-l-2GhsW7t02uKwd3EzuiB4duQxge7kLC40Xc3BvjnjlmvSbMquGXUUNg&_nc_zt=24&_nc_ht=scontent.fktm18-1.fna&_nc_gid=0ZBoDWknyJdR5SFT4U5oEQ&oh=00_AfOd-xU1C8xMPNEoCIbrxBCkgoJhDpqJHkBjJbCNS9w0OQ&oe=685EF0E7"
+                    src="/+2 co-ordinator.jpg"
                     style={{
                       borderRadius: "200px",
                       height: "130px",

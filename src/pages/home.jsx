@@ -146,7 +146,7 @@ const Home = () => {
               <div style={{ display: "flex" }}>
                 <div style={{ height: "50px", width: "50px" }}>
                   <img
-                    src="/+2 co-ordinator.jpg"
+                    src="/coordinator.jpg"
                     style={{
                       borderRadius: "200px",
                       height: "130px",

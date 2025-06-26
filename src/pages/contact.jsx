@@ -13,9 +13,15 @@ const Contact = () => {
         ></iframe>
         <div style={{ paddingLeft: "50px" }}>
           <h1>Contact Us</h1>
-          <p></p>
-          <form>
-            <div>
+
+          <form
+            style={{
+              border: "2px black solid",
+              height: "300px",
+              paddingTop: "60px",
+            }}
+          >
+            <div style={{ display: "flex", gap: "30px" }}>
               <div>
                 <input type="text" placeholder="*Name" id="Name" name="Name" />
               </div>
@@ -29,21 +35,36 @@ const Contact = () => {
               </div>
             </div>
             <br></br>
-            <input type="email" placeholder="*Email" id="Email" name="Email" />
-            <input
-              type="number"
-              placeholder="*Phone-Number"
-              id="P.N"
-              name="P.N"
-            />
+            <div style={{ gap: "30px", display: "flex" }}>
+              <div>
+                <input
+                  type="email"
+                  placeholder="*Email"
+                  id="Email"
+                  name="Email"
+                />
+              </div>
+              <div>
+                <input
+                  type="number"
+                  placeholder="*Phone-Number"
+                  id="P.N"
+                  name="P.N"
+                />
+              </div>
+            </div>
             <br></br>
-            <textarea placeholder="*Send Message"></textarea>
-            <button
-              type="submit"
-              style={{ backgroundColor: " rgb(37, 77, 112)", color: "white" }}
-            >
-              Send Message
-            </button>
+            <div>
+              <textarea placeholder="*Send Message"></textarea>
+            </div>
+            <div style={{ paddingTop: "20px" }}>
+              <button
+                type="submit"
+                style={{ backgroundColor: " rgb(37, 77, 112)", color: "white" }}
+              >
+                Send Message
+              </button>
+            </div>
           </form>
         </div>
       </div>

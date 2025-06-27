@@ -1,106 +1,63 @@
+import "../styles/footer.css";
+
 const Footer = () => {
   return (
     <>
-      <div
-        style={{
-          backgroundColor: "rgb(244, 231, 225)",
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-section">
+            <h2>Sainamaina Secondary School</h2>
+            <p>Lead the world in your own way</p>
+          </div>
 
-          justifyContent: "space-between",
-          alignItems: "center",
-          marginTop: "50px",
-        }}
-      >
-        <footer
-          style={{
-            backgroundColor: "rgb(244, 231, 225)",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            marginTop: "50px",
-          }}
-        >
-          <div style={{ width: "900px" }}>
-            <div>
-              <h2>Sainamaina Secondary School</h2>
-              <h4 style={{ color: "#a4288d" }}>
-                Lead the world in your own way
-              </h4>
-            </div>
-            <div id="logoinfooter"></div>
-            <br />
-            <p style={{ fontWeight: "200", paddingRight: "30px" }}>
-              The school operates with a dedicated team of experienced and
-              qualified teachers who use effective teaching methodologies
-              aligned with Nepal’s national curriculum. Equipped with essential
-              facilities and a growing focus on modern educational tools,
-              Sainamaina Secondary School ensures that every child receives a
-              meaningful and future-focused education.
-            </p>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/about">About</a>
+              </li>
+
+              <li>
+                <a href="/Contact">Contact</a>
+              </li>
+            </ul>
           </div>
-          <div
-            style={{
-              paddingRight: "105px",
-              textAlign: "center",
-              paddingBottom: "50px",
-            }}
-          >
-            <h4>Some Links</h4>
-            <div style={{ paddingTop: "10px" }}>
-              <a
-                href="/"
-                style={{
-                  textDecoration: "none",
-                  color: "#a4288d",
-                }}
-              >
-                Home
-              </a>
-            </div>
-            <div style={{ paddingTop: "10px" }}>
-              <a
-                href="/about"
-                style={{
-                  textDecoration: "none",
-                  color: "#a4288d",
-                }}
-              >
-                About
-              </a>
-            </div>
-            <div style={{ paddingTop: "10px" }}>
-              <a
-                href="/contact"
-                style={{
-                  textDecoration: "none",
-                  color: "#a4288d",
-                }}
-              >
-                Contact
-              </a>
-            </div>
+
+          <div class="footer-section">
+            <h3>Support</h3>
+            <ul>
+              <li>
+                <a href="#">FAQs</a>
+              </li>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="#">Help Center</a>
+              </li>
+            </ul>
           </div>
-          <div
-            style={{
-              paddingRight: "140px",
-              paddingBottom: "50px",
-              textAlign: "center",
-            }}
-          >
-            <h4 style={{}}>Address</h4>
-            <div>
-              <h4>Sector-1</h4>
-              <p>Sainamaina-2,Rupandehi</p>
-            </div>
+
+          <div class="footer-section">
+            <h3>Newsletter</h3>
+            <p>Get latest updates in your inbox.</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email" required />
+              <button type="submit">Submit</button>
+            </form>
           </div>
-        </footer>
-        <hr />
-        <div style={{ color: "#a4288d", textAlign: "center" }}>
-          © 2025 All Rights Reserved By{" "}
-          <a href="/" style={{ textDecoration: "none", color: "#a4288d" }}>
-            Sainamaina
-          </a>
         </div>
-      </div>
+
+        <div class="footer-bottom">
+          © 2025 Sainamaina Secondary School. All rights reserved.
+        </div>
+      </footer>
     </>
   );
 };
